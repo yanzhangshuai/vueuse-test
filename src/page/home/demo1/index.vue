@@ -1,0 +1,16 @@
+<template>
+  <div>
+		<h1>demo1</h1>
+		<button @click="$router.push('/home/demo2')">goToDemo2</button>
+  </div>
+</template>
+
+<script lang="ts">
+import { defineComponent } from '@vue/composition-api';
+
+export default defineComponent({
+  setup() {
+    return {};
+  }
+});
+</script>
